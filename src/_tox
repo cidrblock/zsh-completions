@@ -35,6 +35,7 @@ _arguments \
   '(- 1 *)'{-a,--listenvs-all}'[show list of all defined environments]' \
   '-c[config file name or directory with "tox.ini" file]:config path:_files -g "*.ini"' \
   '-e[work against specified environments]: :_tox_envs_list' \
+  '-qe[work against specified environments]: :_tox_envs_list' \
   '--notest[skip invoking test commands]' \
   '--sdistonly[only perform the sdist packaging activity]' \
   '--parallel--safe-build[ensure two tox builds can run in parallel]' \
